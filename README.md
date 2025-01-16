@@ -9,7 +9,10 @@ This project aims to build a fraud detection system using anomaly detection tech
 ```
 ├── fraud_detection_system
 │   ├── data
-│   │   └── raw_data.csv
+│   │   ├── processed_data.csv
+│   │   ├── raw_data.csv
+│   │   ├── test_data.csv
+│   │   └── train_data.csv
 │   ├── notebooks
 │   │   ├── 01_data_exploration.ipynb
 │   │   ├── 02_feature_engineering.ipynb
@@ -23,9 +26,9 @@ This project aims to build a fraud detection system using anomaly detection tech
 │   │   ├── train_model.py
 │   │   └── evaluate_model.py
 │   ├── models
-│   │   └── saved_models
-│   ├── reports
-│   │   └── figures
+│   │   ├── autoencoder_model.keras
+│   │   ├── isolation_forest_model.pkl
+│   │   └── lof_model.pkl
 │   ├── README.md
 │   ├── requirements.txt
 │   ├── setup.py
@@ -34,10 +37,10 @@ This project aims to build a fraud detection system using anomaly detection tech
 
 ## Description:
 ```
-- **data:** Contains the raw dataset.
+- **data:** Contains the raw dataset in the file raw_data.csv. The files processed_data.csv, test_data.csv, and train_data.csv will be generated at the time of executions.
 - **notebooks:** Jupyter notebooks for step-by-step data exploration, feature engineering, and model building.
 - **scripts:** Python scripts for data preprocessing, training, and evaluation.
-- **models:** Directory to store trained models.
+- **models:** Directory to store trained models. This code generates three model files autoencoder_model.keras, isolation_forest_model.pkl, and lof_model.pkl after running python scripts.
 - **reports:** Stores generated figures and results.
 ```
 
