@@ -44,6 +44,11 @@ This project aims to build a fraud detection system using anomaly detection tech
 - **reports:** Stores generated figures and results.
 ```
 
+## Data:
+```
+- Raw data can be downloaded from various internet source or may contact with the author of this repository through email given below.
+```
+
 ## Setup:
 ```
 1. Create a virtual environment: `python -m venv venv`
