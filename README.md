@@ -36,18 +36,15 @@ This project aims to build a fraud detection system using anomaly detection tech
 ```
 
 ## Description:
-```
 - **data:** Contains the raw dataset in the file raw_data.csv. The files processed_data.csv, test_data.csv, and train_data.csv will be generated at the time of executions.
 - **notebooks:** Jupyter notebooks for step-by-step data exploration, feature engineering, and model building.
 - **scripts:** Python scripts for data preprocessing, training, and evaluation.
 - **models:** Directory to store trained models. This code generates three model files autoencoder_model.keras, isolation_forest_model.pkl, and lof_model.pkl after running python scripts.
 - **reports:** Stores generated figures and results.
-```
+
 
 ## Data:
-```
 - Raw data can be downloaded from various internet source or may contact with the author of this repository through email given below.
-```
 
 ## Setup:
 ```
@@ -57,12 +54,10 @@ This project aims to build a fraud detection system using anomaly detection tech
 ```
 
 ## Technologies Used:
-```
 - Python
 - Scikit-learn, TensorFlow, Keras
 - SMOTE, Cost-sensitive learning
 - Pandas, Matplotlib, Seaborn
-```
 
 ## Usage:
 - Run the notebooks in sequence for a complete workflow, or execute the scripts for modular execution.
